@@ -1,0 +1,350 @@
+#body {
+	cursor: url('Cursor.cur'), auto;
+	background-image: url(fantasyBackground.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	overflow-x: hidden;
+}
+#pembungkus-sub-button {
+	padding: 0px;
+	background-color: #1e0f0a;
+}
+h1 {
+	text-align: center;
+	font-size: 140px;
+	margin: 110px;
+	color: #f6c65d;
+	font-family: "Roboto Slab", serif;
+	margin-bottom: 40px;
+}
+h2 {
+	text-align: left;
+}
+h6 {
+	margin-left: 20px;
+	margin-right: 20px;
+	transform: translateY(2px);
+	color: white;
+}
+.btn h6{
+	color: black;
+}
+.btn {
+	background-color: rgb(238 200 110);
+	box-shadow: -3px 5px #d1a431, -3.5px 5.5px black;
+	margin-left: 5px;
+}
+.btn:hover {
+	background-color: #00b527;
+	border: 1px solid darkgrey;
+	animation-duration: 1s;
+	animation-name: bergelembung;
+	box-shadow: -4px 6px #006516, -4.5px 6.5px black;
+}
+@keyframes bergelembung {
+	0% {
+		border-top-right-radius: 30px;
+		text-shadow: 2px 2px 5px burlywood;
+	}
+	15% {
+		transform: translateY(5px);
+		transform: rotateZ(5deg);
+	}
+	25% {
+		border-top-left-radius: 30px;
+	}
+	35% {
+		transform: translateX(5px);
+		transform: rotateZ(-5deg);
+	}
+	50% {
+		border-bottom-right-radius: 30px;
+	}
+	65% {
+		transform: translateY(-5px);
+		transform: rotateZ(5deg);
+	}
+	75% {
+		border-bottom-left-radius: 30px;
+	}
+	85% {
+		transform: translateX(-5px);
+		transform: rotateZ(-5deg);
+	}
+}
+
+.margin-right {
+	margin-right: auto;
+}
+.text-black {
+	color: black;
+}
+.bg-pink {
+	border: 0px solid transparent;
+	background-color: white;
+}
+.width-full-aziz {
+	width: 100%;
+	height: auto;
+	border: 2px solid black;
+}
+.border-1px {
+	border: 1px solid black;
+}
+.margin-left {
+	margin-left: 30px;
+}
+.col {
+	padding: 20px;
+	border: 1px solid black;
+}
+.nama img {
+	float: right;
+	border: 2px solid black;
+	padding: 10px;
+	width: 200px;
+	height: 280px;
+	margin-right: 25%;
+	box-shadow: 1px 1px 10px 10px #88888832;
+}
+.nama img:hover {
+	animation-name: membesar;
+	animation-duration: 2s;
+	box-shadow: -4px 6px rgba(0, 0, 0, 0.427), -4.5px 6.5px rgba(0, 0, 0, 0.268);
+}
+@keyframes membesar {
+	0% {
+		border-top-right-radius: 30px;
+		text-shadow: 2px 2px 5px burlywood;
+	}
+	15% {
+		transform: translateY(5px);
+	}
+	25% {
+		border-top-left-radius: 30px;
+	}
+	35% {
+		transform: translateX(5px);
+	}
+	50% {
+		border-bottom-right-radius: 30px;
+	}
+	65% {
+		transform: translateY(-5px);
+	}
+	75% {
+		border-bottom-left-radius: 30px;
+	}
+	85% {
+		transform: translateX(-5px);
+	}
+}
+
+h5 {
+	/* text-align: justify; */
+	margin-top: 20px;
+	font-family: "Roboto Slab", serif;
+	color: #f6c65d;
+	/* text-align: center; */
+}
+.pendahuluan h5 {
+	margin-left: 0px;
+	margin-top: 0px;
+	border: 0px solid none;
+	border-left: 0px solid transparent;
+	border-bottom: 0px solid transparent;
+	display: inline-block;
+	margin-right: 0px;
+}
+.pendahuluan h6 {
+	display: inline-block;
+	margin-left: 5px;
+}
+.pendahuluan {
+	width: 80%;
+	height: auto;
+	background-color: #333;
+	margin-left: auto;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	margin-right: 20px;
+	padding: 80px 7px 7px 60px;
+	border: 2px solid black;
+	background-image: url(dot.png);
+}
+.blank {
+	background-color: rgba(0, 0, 0, 0.67);
+	height: 100%;
+	width: 90%;
+	border: 1px solid black;
+	padding: 40px;
+	color: #f6c65d;
+	margin: 10px;
+	text-align: left;
+}
+.blank img{
+	width: 30px;
+	border: 2px solid black;
+	display: inline-block;
+	margin-top: -5px;
+}
+
+/* Gaya dasar untuk footer */
+footer {
+	background-color: #1c100b;
+	color: black;
+	padding: 20px 0;
+	text-align: right;
+	display: flex; /* Mengatur tata letak ke flex */
+	justify-content: space-between; /* Mengatur jarak antara elemen-elemen secara merata */
+}
+
+/* Gaya untuk ikon sosial media */
+.social-icons {
+	text-align: right;
+	display: grid;
+	height: auto;
+	grid-template-columns: repeat(2, 1fr);
+}
+.social-icons h6 {
+	height: 20px;
+}
+.social-icons a {
+	display: inline-block;
+	margin: 10px 10px;
+	text-decoration: none;
+	color: rgb(166, 255, 0);
+	font-size: 14px;
+}
+.social-icons img {
+	border-radius: 5px;
+	width: 25px;
+	margin-right: 10px;
+}
+
+/* Gaya untuk teks hak cipta */
+.copyright {
+	font-size: 14px;
+	text-align: center;
+	justify-content: center;
+	padding: 10px;
+	color: white;
+	background-color: #1c100b;
+}
+
+.animated-div-pendahuluan {
+	position: relative;
+	opacity: 1;
+	transition: left 1.5s; /* Animasi transisi selama 1 detik */
+}
+.col {
+	text-align: left;
+	border: 1px solid black;
+	margin: 2px;
+}
+.dokumentasi {
+	border: 1px solid black;
+}
+.dokumentasi h6 {
+	display: inline-block;
+	color: white;
+}
+.dokumentasi img {
+	width: 100px;
+}
+
+.tentang-diri {
+	margin-left: 80px;
+	margin-right: auto;
+	border: 1px dotted black;
+}
+.riwayat-pendidikan {
+	margin-right: 80px;
+	padding: 80px 60px 7px 7px;
+}
+.riwayat-pendidikan .blank {
+	background-color: white;
+	height: 100%;
+	width: 100%;
+	border: 1px solid black;
+	padding: 40px;
+}
+.kontak h6 {
+	display: inline-block;
+	color: white;
+}
+.kontak .h6-milik-link{
+	color: rgb(166, 255, 0);
+}
+.h6-milik-medsos{
+	margin-top: 15px;
+}
+.background-opacity{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.737);
+}
+.foto-diri{
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	border: 5px solid #f6c65d;
+	filter: saturate(1.6);
+}
+.background-opacity{
+	text-align: right;
+}
+.right-card{
+	display: inline-block;
+}
+.pengalaman ul li{
+	text-align: left;
+}
+a{
+	color: rgb(166, 255, 0);
+	text-decoration: none;
+}
+.potensi{
+	display: flex;
+}
+.form-label img h4{
+	display: inline-block;
+}
+.form-label p{
+	display: inline-block;
+	margin-left: 15px;
+}
+.bahasa-dipelajari{
+	display: inline-block;
+	text-align: center;
+	background-color: none;
+	border: none;
+	margin-top: -70px;
+}
+.bahasa-dipelajari h6{
+	font-size: 30px;
+}
+.bahasa-dipelajari img{
+	width: 250px;
+	padding: 80px;
+	padding-bottom: 25px;
+	border: none;
+}
+
+@media screen and (max-width: 1440px) {
+	.dokumentasi img {
+		width: 95px;
+	}
+	.social-icons a {
+		font-size: 13px;
+	}
+	.kontak a {
+		font-size: 13px;
+	}
+}
+@media screen and (max-width: 1080px) {
+	* {
+		display: none;
+	}
+}
