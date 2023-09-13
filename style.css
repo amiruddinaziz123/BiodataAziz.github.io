@@ -289,8 +289,10 @@ footer {
 	width: 200px;
 	height: 200px;
 	border-radius: 100px;
-	border: 5px solid #f6c65d;
-	filter: saturate(1.6);
+	border: 5px solid #2a1208;	
+	background-color: #1e1a13;
+	background-size: cover;
+	background-image: url(fantasyBackground.jpg);
 }
 .background-opacity{
 	text-align: right;
